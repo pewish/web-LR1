@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Космос</title>
+	<!-- Мета тэги -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Marina Savoskina">
+	<meta name="description" content="Сайт для ЛР1 по веб-программированию">
+
+	<!-- Подключение CSS-стилей -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/animsition.min.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="animsition">
+	<!-- Заголовок  -->
+	<header class="main-header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+			</div>
+
+			<div class="menu">
+                
+				<!-- Навигационная панель для пк -->
+				<nav class="desktop-nav">
+					<ul class="first-level">
+						<li><a href="index.html" class="animsition-link">главная</a></li>
+						<li><a href="nebula.html" class="animsition-link">туманность</a></li>
+						<li><a href="mars.html" class="animsition-link">марс 2033</a></li>
+					</ul>
+				</nav>
+                
+				<!-- Навигационная панель для телефона -->
+				<nav class="mobile-nav"></nav>
+				<div class="menu-icon">
+					<div class="line"></div>
+					<div class="line"></div>
+					<div class="line"></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Заглавный блок  -->
+	<div class="site-hero">
+		<ul class="slides">
+			<li>
+				<div><span class="small-title uppercase montserrat-text">развитие</span></div>
+				<div class="big-title uppercase montserrat-text">КОСМОСА</div>
+				<p>Это один маленький шаг для человека, но гигантский скачок для всего человечества.</p>
+			</li>
+			<li>
+				<div><span class="small-title uppercase montserrat-text">сайт</span></div>
+				<div class="big-title uppercase montserrat-text">ДЛЯ ИЗУЧЕНИЯ</div>
+				<p>Космонавтика имеет безграничное будущее, и ее перспективы беспредельны, как сама Вселенная. </p>
+			</li>
+		</ul>
+	</div>
+
+	<!-- Вставка про историю космоса -->
+	<div class="container">
+		<div class="story">
+			<div class="col-md-5 col-sm-12">
+				<div class="row">
+					<img src="assets/img/story.jpg" alt="image">
+				</div>
+			</div>
+			<div class="col-md-offset-1 col-md-6 col-sm-12">
+				<div class="row">
+					<div class="section-title">
+						<span>про космос</span>
+					</div>
+					<p>
+						История освоения космоса — самый яркий пример торжества человеческого разума над непокорной материей в кратчайший срок. С того момента, как созданный руками человека объект впервые преодолел земное притяжение и развил достаточную скорость, чтобы выйти на орбиту Земли, прошло всего лишь чуть более пятидесяти лет — ничто по меркам истории! Большая часть населения планеты живо помнит времена, когда полёт на Луну считался чем-то из области фантастики, а мечтающих пронзить небесную высь признавали, в лучшем случае, неопасными для общества сумасшедшими.
+					</p>
+					<a href="#" class="btn green" style="float:right;margin-top:30px"><span>read more</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Космические объекты -->
+	<section class="objects">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<span>космические объекты</span>
+					<p>На картинках изображены различные объекты космоса.</p>
+				</div>
+			</div>
+				
+
+			<!-- Категории  -->
+			<div class="col-md-3">
+				<div class="row categories-grid wow fadeInLeft">
+					<span class="montserrat-text uppercase">выберите категорию</span>
+
+					<nav class="categories">
+						<ul class="objects_filter">
+							<li><a href="" class="active" data-filter="*">все</a></li>
+							<li><a href="" data-filter=".galaxy">галактика</a></li>
+							<li><a href="" data-filter=".star">звезда</a></li>
+							<li><a href="" data-filter=".blackhole">черная дыра</a></li>
+							<li><a href="" data-filter=".asteroid">туманность</a></li>
+							<li><a href="" data-filter=".planet">планета</a></li>
+							<li><a href="" data-filter=".satelite">спутник</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<!-- все -->
+			<div class="col-md-9">
+				<div class="row objects_container">
+					<!-- single work -->
+					<div class="col-md-4 galaxy">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp">
+							<img src="assets/img/work-1.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>M83</span>
+									<em>галактика</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 star galaxy nebula">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".2s">
+							<img src="assets/img/work-2.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>NGC 4414</span>
+									<em>галактика</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 planet satelite star">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".3s">
+							<img src="assets/img/work-3.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>Proxima Centauri b</span>
+									<em>планета</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 galaxy nebula">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".4s">
+							<img src="assets/img/work-4.jpg" alt="image">
+							<div class="objects_hover">
+								<div class="item_info">
+									<span>NGC 1000</span>
+									<em>галактика</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 blackhole galaxy">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".5s">
+							<img src="assets/img/work-5.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>M87</span>
+									<em>черная дыра</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 star galaxy">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".6s">
+							<img src="assets/img/work-6.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>Sirius</span>
+									<em>звезда</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 star galaxy">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".7s">
+							<img src="assets/img/work-7.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>Betelgeuse</span>
+									<em>звезда</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 star galaxy">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".8s">
+							<img src="assets/img/work-8.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>Aldebaran</span>
+									<em>звезда</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+
+					<!-- single work -->
+					<div class="col-md-4 blackhole galaxy">
+						<a href="single-project.html" class="objects_item work-grid wow fadeInUp" data-wow-delay=".9s">
+							<img src="assets/img/work-9.jpg" alt="image">
+							<div class="objects_item_hover">
+								<div class="item_info">
+									<span>Milky Way</span>
+									<em>черная дыра</em>
+								</div>
+							</div>
+						</a>
+					</div>
+					<!-- end single work -->
+				</div>
+				<!-- end row -->
+			</div>
+			<!-- all works end -->
+		</div>
+		<!-- end container -->
+	</section>
+	<!-- objects -->
+
+	<!-- Футер внизу -->
+	<footer class="main-footer wow fadeInUp">
+		<div class="container">
+			<div class="col-md-8 col-sm-12">
+				<div class="row">
+					<nav class="footer-nav">
+						<ul>
+							<li><a href="index.html" class="animsition-link link">главная</a></li>
+							<li><a href="nebula.html" class="animsition-link link">туманность</a></li>
+							<li><a href="mars.html" class="animsition-link link">Марс2033</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-12" style="text-align:right">
+				<div class="row">
+					<div class="uppercase gray-text">
+						created by Savoskina Marina &copy;2022. all rights reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Скрипты для js -->
+	<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="assets/js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="assets/js/smoothScroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.animsition.min.js"></script>
+	<script type="text/javascript" src="assets/js/wow.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+
+	<script type="text/javascript" charset="utf-8">
+		$(window).load(function() {
+			new WOW().init();
+
+			// initialise flexslider
+			$('.site-hero').flexslider({
+				animation: "fade",
+				directionNav: false,
+				controlNav: false, 
+				keyboardNav: true,
+				slideToStart: 0,
+				animationLoop: true,
+				pauseOnHover: false,
+				slideshowSpeed: 4000, 
+			});
+
+
+			// initialize isotope
+			var $container = $('.objects_container');
+			$container.isotope({
+				filter: '*',
+			});
+		 
+			$('.objects_filter a').click(function(){
+				$('.objects_filter .active').removeClass('active');
+				$(this).addClass('active');
+		 
+				var selector = $(this).attr('data-filter');
+				$container.isotope({
+					filter: selector,
+					animationOptions: {
+						duration: 500,
+						animationEngine : "jquery"
+					}
+				});
+				return false;
+			}); 
+		});
+	</script>
+</body>
+</html>
