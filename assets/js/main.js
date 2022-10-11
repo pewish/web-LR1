@@ -1,7 +1,6 @@
 /*
-	Javascript File for AKAD Template
-	Author : Akhouad-me
-	Web    : www.akhouad.me
+	Javascript File for LR1
+	Author : Savoskina Marina
 */
 
 (function($){
